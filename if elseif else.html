@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>if else statement</title>
+        <script>
+            function relation()
+            {
+                if(document.getElementById("a").value==document.getElementById("b").value)
+                {
+                    document.getElementById("res").innerHTML="both are equal"
+                }
+                else if(document.getElementById("a").value>document.getElementById("b").value)
+                {
+                    document.getElementById("res").innerHTML="first one greater than second one"
+                }
+                else{
+                    document.getElementById("res").innerHTML=" second one greater than first one"
+                }
+                
+            }
+        </script>
+    </head>
+    <body>
+        <h1>enter first num<input type="text" id="a"></h1>
+        <h1>enter second num<input type="text" id="b"></h1>
+        <button type="button" onclick="relation()">verify</button>
+        <div id="res"></div>
+    </body>
+</html>

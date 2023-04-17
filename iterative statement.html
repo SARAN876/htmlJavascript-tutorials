@@ -1,0 +1,33 @@
+<html>
+    <head>
+     <title>  ityerative statement</title>
+    </head>
+    <body>
+           <h1>for loop</h1> 
+           <h3 id="res">print nums</h3>
+           <script>
+               var i;res="";
+               for(i=1;i<=100;i++)
+               {
+                   res+=i+"";
+                   if(i%10==0)
+                   res+="<br>"
+               }
+               document.getElementById("res").innerHTML=res;
+           </script>
+            <h1>while loop</h1>
+            <h3 id="re"></h3>
+            <script>
+              var i=1;re="";
+              while(i<=100)
+              {
+                  re+=i+"";
+                  if(i%10==0)
+                  re+="<br>";
+                  i++;
+    
+              }
+                document.getElementById("re").innerHTML=re;
+            </script>
+    </body>
+</html>
